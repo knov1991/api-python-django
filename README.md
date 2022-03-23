@@ -2,10 +2,11 @@
 
 # Reminder
 Develop Project in Django
-* django-admin startproject "projectName"
-* python manage.py startapp "appName"
+* `django-admin startproject "projectName"` create a django project
+* `python manage.py startapp "appName"` create a django app inside the project
 
 Run Project
-* pip install -r requirements.txt
-* python -m venv venv
-* ". venv/Scripts/activate" to activate the virtual environment(venv)
+* `python -m venv venv` create the virtual environment
+* `. venv/Scripts/activate` activate the virtual environment(venv)
+* `pip install -r requirements.txt` install the dependencies
+* `python manage.py runserver` run project
